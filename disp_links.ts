@@ -31,7 +31,6 @@ function main(): void {
     let tu = read_tu(file_path, line_no)
     let bi_rtoks_with_links = create_bi_rtoks_with_links(tu.bi_rtoks, tu.links)
 	disp_bi_rtoks_with_links(bi_rtoks_with_links)
-	console.log(tu.initial_phrase_pairs)
 }
 
 main()
